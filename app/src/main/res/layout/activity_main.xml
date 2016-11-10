@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shenshenff.gameview.activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/activity_main_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SurfaceView"/>
+            <Button
+                android:id="@+id/activity_main_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ThreadSurfaceView"/>
+            <Button
+                android:id="@+id/activity_main_btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CanvasSurfaceView"/>
+            <Button
+                android:id="@+id/activity_main_btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BitmapSurfaceView"/>
+            <Button
+                android:id="@+id/activity_main_btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ClipCanvasProject"/>
+
+            <Button
+                android:id="@+id/activity_main_btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xfermodes"/>
+            <Button
+                android:id="@+id/activity_main_btn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Animation"/>
+            <Button
+                android:id="@+id/activity_main_btn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BitmapMovie"/>
+            <Button
+                android:id="@+id/activity_main_btn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FrameMovie"/>
+            <Button
+                android:id="@+id/activity_main_btn10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ClipBitmapMovie"/>
+
+            <Button
+                android:id="@+id/activity_main_btn11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RectCollision"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
